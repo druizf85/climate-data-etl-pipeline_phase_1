@@ -27,7 +27,6 @@ project/
 │   └───raw_data
 │       ├───hist_data
 │       └───new_data
-├───models
 ├───queries_src
 │   ├───queries_hist_extraction
 │   └───queries_new_extraction
