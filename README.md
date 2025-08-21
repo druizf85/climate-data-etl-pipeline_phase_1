@@ -14,6 +14,9 @@
 * **Orquestación**: Airflow (DAG diario para ingesta incremental).
 * **Trazabilidad**: batches con `batch` y backups por cortes de extracción.
 
+![Diagrama-ETL-Fase-1](https://github.com/user-attachments/assets/824f2fee-a4aa-497a-8bda-80387505dd29)
+
+
 ---
 
 ## 🗂️ Estructura del repositorio
@@ -171,3 +174,4 @@ Se encontraron algunas limitantes en el proceso:
 
 * **Fase 2 (dbt)**: tests (unique, not null, valores permitidos, transformaciones y vistas personalizadas), documentación.
 * **Fase 3 (BI)**: dashboards en Power BI (tendencias, estacionalidad, mapas, anomalías) y KPIs por zona/estación.
+
