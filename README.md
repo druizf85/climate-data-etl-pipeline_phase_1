@@ -109,6 +109,9 @@ CREATE TABLE IF NOT EXISTS hist_temp (
 4. Insertar de `tmp_hist_temp` → `hist_temp` con **`ON CONFLICT (identificador) DO NOTHING`**.
 5. Limpiar: `DROP` de la temporal, eliminar CSV temporal y cerrar conexiones.
 
+Proceso exitosamente implementado en Airflow
+<img width="1600" height="967" alt="image" src="https://github.com/user-attachments/assets/c4cf4096-befc-4e1d-8d2a-ce95476a291a" />
+
 ---
 
 ## 📈 Volumen histórico (resumen de cortes cargados)
@@ -174,4 +177,5 @@ Se encontraron algunas limitantes en el proceso:
 
 * **Fase 2 (dbt)**: tests (unique, not null, valores permitidos, transformaciones y vistas personalizadas), documentación.
 * **Fase 3 (BI)**: dashboards en Power BI (tendencias, estacionalidad, mapas, anomalías) y KPIs por zona/estación.
+
 
