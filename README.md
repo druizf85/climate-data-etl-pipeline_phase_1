@@ -173,7 +173,7 @@ Se encontraron algunas limitantes en el proceso:
 
 ---
 
-## 🗺️ Próximos pasos (Fase 2 y 3 — fuera de alcance de esta fase)
+## 🗺️ Próximos pasos
 
 * **Fase 2 (dbt)**: tests (unique, not null, valores permitidos, transformaciones y vistas personalizadas), documentación.
 * **Fase 3 (BI)**: dashboards en Power BI (tendencias, estacionalidad, mapas, anomalías) y KPIs por zona/estación.
